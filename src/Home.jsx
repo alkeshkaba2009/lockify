@@ -12,9 +12,12 @@ function Home() {
         return;
       }
 
-      const response = await axios.post("http://localhost/lockify/home.php", {
-        user_id: id,
-      });
+      const response = await axios.post(
+        "http://lockify.infinityfreeapp.com/home.php",
+        {
+          user_id: id,
+        }
+      );
 
       console.log("Response:", response.data);
       setResult(response.data.website);
