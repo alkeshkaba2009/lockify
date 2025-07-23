@@ -15,7 +15,7 @@ function AddWebsiteInfo() {
       const data = { websiteName, username, password, id };
 
       const response = await axios.post(
-        "http://localhost/lockify/add_website.php",
+        "https://icodifysolutions.in/lockify/add_website.php",
         data
       );
       if (response.data.status) {
