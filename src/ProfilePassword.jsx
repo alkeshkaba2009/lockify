@@ -13,7 +13,7 @@ function ProfilePassword() {
       const id = localStorage.getItem("user_id");
 
       const response = await axios.post(
-        "https://lockify.infinityfreeapp.com/profile_password.php",
+        "https://icodifysolutions.in/lockify/profile_password.php",
         {
           password,
           user_id: id,

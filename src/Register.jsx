@@ -17,7 +17,7 @@ function Register() {
     if (password == confirmPassword) {
       try {
         const response = await axios.post(
-          "https://lockify.infinityfreeapp.com/register.php",
+          "https://icodifysolutions.in/lockify/register.php",
           data
         );
         if (response.data.status) {

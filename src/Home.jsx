@@ -13,7 +13,7 @@ function Home() {
       }
 
       const response = await axios.post(
-        "http://lockify.infinityfreeapp.com/home.php",
+        "https://icodifysolutions.in/lockify/home.php",
         {
           user_id: id,
         }
