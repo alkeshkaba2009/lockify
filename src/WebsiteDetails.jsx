@@ -9,7 +9,7 @@ function WebsiteDetails() {
   const fetchWebsiteDetails = async () => {
     try {
       const response = await axios.post(
-        "http://lockify.infinityfreeapp.com/view_details.php",
+        "https://lockify.infinityfreeapp.com/view_details.php",
         {
           user_id: uid,
           wid,

@@ -12,7 +12,7 @@ function Login() {
     try {
       const data = { email, password };
       const response = await axios.post(
-        "http://lockify.infinityfreeapp.com/login.php",
+        "https://lockify.infinityfreeapp.com/login.php",
         data
       );
       if (response.data.status) {
